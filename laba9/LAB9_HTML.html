@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dog List</h1>
+    <div class="dog-list" id="dog-list">
+        <!-- Dogs will be loaded here -->
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="dog-modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <img id="dog-image" src="" alt="Dog Image">
+            <h2 id="dog-title"></h2>
+            <p><strong>Sex:</strong> <span id="dog-sex"></span></p>
+            <p><strong>Age:</strong> <span id="dog-age"></span></p>
+            <p><strong>Personality:</strong> <span id="dog-description"></span></p>
+            <button class="adopt-button">Adopt Me</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
